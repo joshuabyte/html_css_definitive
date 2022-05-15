@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main_nav{
+ margin-top: 10px;
+ list-style: none;
+ background-color: #13a4a4;
+}
+
+.main_nav_item{
+    display: inline-block;  
+}
+
+.main_nav_item a{
+ text-decoration: none;
+ color: white;
+ padding: 5px;
+ border-radius: 2px;
+ -webkit-border-radius: 2px;
+ -moz-border-radius: 2px;
+ -ms-border-radius: 2px;
+ -o-border-radius: 2px;
+}
+
+.main_nav_item a:hover{
+    color: blue;
+}
+
+.main_nav_item a:active{
+    color: red;
+}
+
+.main_nav_item a::after{
+    content: " | ";
+}
