@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: palevioletred;
+}
+
+/* We use min and max to create felxible elements. It is advised to use width with a percentage before using min/max. */
+section {
+    width: 80%;
+    min-height: 500px;
+    max-width: 500px;
+    min-width: 320px;
+    background-color: palegoldenrod;
+    margin: 0 auto;
+}
