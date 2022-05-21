@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.navbar-container{
+    display: flex;
+}
+
+.navbar-container li{
+    list-style: none;
+}
+
+.navbar-container li a{
+    text-decoration: none;
+}
+
+.container{
+    border: 0.3rem solid black;
+    display: flex;
+    /* This flex-wrap is used to mantain the size of the boxes when reducing the size of the browser window */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 10rem;
+    height: 10rem;
+}
+
+.box1{
+    background-color: blue;
+}
+.box2{
+    background-color: blueviolet;
+}
+.box3{
+    background-color: burlywood;
+}
+.box4{
+    background-color: cadetblue;
+}
+.box5{
+    background-color: coral;
+}
+.box6{
+    background-color: salmon;
+}
