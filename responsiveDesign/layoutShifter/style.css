@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+  }
+  
+  .c1,
+  .c2,
+  .c3,
+  .c4,
+  .c5 {
+    width: 100%;
+    min-width: 150px;
+    height: 150px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+  }
+
+  .c4{
+      height: auto;
+  }
+  
+  .c1 {
+    background-color: #ffbe0b;
+  }
+  .c2 {
+    background-color: #fb5607;
+  }
+  .c3 {
+    background-color: #ff006e;
+  }
+  .c4 {
+    background-color: #8338ec;
+  }
+  .c5 {
+    background-color: #3a86ff;
+  }
+
+  @media (min-width: 600px){
+      .c1{
+          width: 25%;
+      }
+
+      .c4{
+          width: 75%;
+      }
+
+      .c5{
+          width: 100%;
+      }
+  }
+
+  @media (min-width: 800px) {
+      .container{
+          width: 800px;
+          margin-left: auto;
+          margin-right: auto;
+      }
+
+    .c1{
+        width: 50%;
+        order: 1;
+    }
+
+    .c4{
+        width: 100%;
+    }
+
+    .c5{
+        width: 50%;
+        order: 2;
+    }
+
+  }

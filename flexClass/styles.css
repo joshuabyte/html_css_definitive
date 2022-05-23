@@ -12,7 +12,7 @@ body{
     font-size: 1.6rem;
 }
 
-.navbar-container{
+/* .navbar-container{
     display: flex;
 }
 
@@ -22,19 +22,26 @@ body{
 
 .navbar-container li a{
     text-decoration: none;
-}
+} */
 
 .container{
     border: 0.3rem solid black;
     display: flex;
+    /* Vertical */
+    align-items: center;
+    /* Horizontal */
+    justify-content: flex-end;
     /* This flex-wrap is used to mantain the size of the boxes when reducing the size of the browser window */
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     flex-wrap: wrap;
+    /* height: 50vh; */
 }
 
 .box{
-    width: 10rem;
     height: 10rem;
+    /* These are applied to children elements */
+    flex-basis: 10rem;
+    flex-grow: 1;
 }
 
 .box1{
